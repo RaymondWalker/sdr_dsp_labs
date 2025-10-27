@@ -18,8 +18,8 @@ Key topics covered:
 
 
 <p align="center">
-  <img src="./01_sdr_hello_world/snr_demo.png" width="600">
+  <img src="snr_demo.png" width="600">
 </p>
 
-
+S
 Currently using RTL-SDR 3

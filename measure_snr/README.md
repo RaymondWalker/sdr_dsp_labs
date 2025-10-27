@@ -11,7 +11,7 @@ Estimate SNR from noisy complex sinusoid and validate it against theoretical val
 
 ## Results
 <p align="center">
-  <img src="../snr_demo.png" width="500">
+  <img src="../measure_snr/snr_demo.png" width="500">
 </p>
 
 ##Files

@@ -8,7 +8,7 @@ N = 2048 # Fundamental period
 t = np.arange(N) / fs
 signal = np.exp(2j * np.pi * f_tone * t)
 
-#gaus white noise
+#gauss white noise
 noise_power = 0.01
 noise = np.sqrt(noise_power/2) * (np.random.randn(N) + 1j *np.random.randn(N))
 
