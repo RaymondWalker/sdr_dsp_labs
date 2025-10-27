@@ -19,7 +19,7 @@ Key topics covered:
 
 ## SNR 
 <p align="center">
-  <img src="snr_demo.png" width="600">
+  <img src="measure_snr/snr_demo.png" width="600">
 </p>
 
 ## Gauss Noise
