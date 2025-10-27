@@ -9,7 +9,7 @@ $$
 where in frequency (much more simple operation)
 
 $$
-Y(f) = X(f) \cdot H(f)
+Y(\omega) = X(\omega) \cdot H(\omega)
 $$
 
 The goal is to design H(f) as to remove all unwanted noise and keep our main signal.
@@ -27,3 +27,8 @@ Demonstrate FIR Filtering by removing out-of-band noise (~100kHz tone)
 | Metric    | Before | After|
 |:-----------:|:-----------:|:----------:|
 | Estimated SNR | 20.0 dB | 27.3 dB |
+
+#### Some sources 
+- https://www.precisionaudioservices.com/blog/conceptual-explanation-of-fir-filters
+- https://en.wikipedia.org/wiki/Finite_impulse_response
+
