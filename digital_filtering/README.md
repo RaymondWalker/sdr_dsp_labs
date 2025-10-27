@@ -8,9 +8,9 @@ $$
 
 where in frequency (much more simple operation)
 
-\[
+$$
 Y(f) = X(f) \cdot H(f)
-\]
+$$
 
 The goal is to design H(f) as to remove all unwanted noise and keep our main signal.
 
