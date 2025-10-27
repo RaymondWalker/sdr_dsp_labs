@@ -2,9 +2,9 @@
 
 ### Theory
 
-\[
-y[n]=\sum_k{k=0}^{N-1} x[k] \cdot h[n-k]
-\]
+$$
+y[n] = \sum_{k=0}^{N-1} x[k] \cdot h[n-k]
+$$
 
 where in frequency (much more simple operation)
 
