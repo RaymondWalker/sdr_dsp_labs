@@ -37,9 +37,18 @@ Demonstrate FIR Filtering by removing out-of-band noise (~100kHz tone)
 ### Results
 | Metric    | Before | After|
 |:-----------:|:-----------:|:----------:|
-| Estimated SNR | 20.0 dB | 27.3 dB |
+| Estimated SNR | 44.7 dB | 59.6 dB |
+
+## FIR Frequency Response
+<p align="center">
+  <img src="filter_frequency_response.png" width="500">
+</p>../measure_snr/snr_demo.png
+## Resulting signal vs Non-Filtered
+<p align="center">
+  <img src="filtered_vs_unfiltered_hann.png" width="500">
+</p>
 
 #### Some sources 
-- https://www.precisionaudioservices.com/blog/conceptual-explanation-of-fir-filters
+- https://www.precisionaudioservices.com/blog/conceptual-explanation-o../measure_snr/snr_demo.pngf-fir-filters
 - https://en.wikipedia.org/wiki/Finite_impulse_response
 
