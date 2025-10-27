@@ -9,7 +9,7 @@ $$
 where :
 
 - $h[k]$ : filter coefficients (defines filter shape or response) 
-- $M$ : Number of coefficients = "filter order" + 1
+- $N$ : Number of coefficients = "filter order" + 1
 - $x[n]$ : Input samples
 - $y[n]$ : filtered output
 
