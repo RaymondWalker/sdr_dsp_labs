@@ -16,6 +16,7 @@ Key topics covered:
 | [fft_sin](./fft_sin) | Basic FFT of a clean sinusoid | FFT, frequency bins, windowing |
 | [gauss_noise_fft](./gauss_noise_fft) | Gaussian noise + FFT | Noise modeling, SNR, PSD |
 | [measure_snr](./measure_snr) | SNR measurement and validation | SNR, Parseval’s theorem, Welch PSD |
+| [digital_filtering](./digital_filtering/) | FIR and IIR Filtering |
 
 ## SIN FFT
 <p align="center">
