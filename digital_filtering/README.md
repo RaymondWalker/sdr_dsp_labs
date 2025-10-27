@@ -8,8 +8,8 @@ $$
 
 where :
 
-$h[k]$ : filter coefficients (defines filter shape or response) 
-$M$ Number of coefficients = "filter order" + 1
+- $h[k]$ : filter coefficients (defines filter shape or response) 
+- $M$ Number of coefficients = "filter order" + 1
 
 
 where in frequency (much more simple operation)
