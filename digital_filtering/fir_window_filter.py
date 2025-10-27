@@ -17,7 +17,7 @@ t = np.arange(N) / fs
 signal = np.exp(2j * np.pi * f_tone * t)
 
 #------------------------------------
-#gauss white noise
+#gauss white noise (AWGN)
 #------------------------------------
 rng = np.random.default_rng(0)
 noise_power = 0.01
@@ -26,7 +26,7 @@ rx_signal = signal + noise
 
 
 #------------------------------------
-#Filtered signal -- look at window_method.py
+#Filtered signal (FIR Band-pass) -- look at window_method.py
 #------------------------------------
 from scipy.signal import firwin
 
@@ -91,7 +91,8 @@ SNR_est_before_dB = 10*np.log10(P_sig_before / P_noise_before + 1e-30)
 
 
 #------------------------------------
-#Filtered SNR#------------------------------------
+#Filtered SNR
+#------------------------------------
 
 
 #total power from fft-filtered
