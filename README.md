@@ -1,4 +1,4 @@
-#SDR DSP Labs
+# SDR DSP Labs
 
 This repo is a compilation and collection of DSP and SDR experiments focused on simulation, analysis, and visualization of various signals
 
@@ -9,6 +9,7 @@ Key topics covered:
 - Gaussian Noise Modeling
 - SNR Estimation and validation
 - Signal Windowing and parseval's Th
+
 
 | Lab | Description | Key Topics |
 |------|--------------|-------------|
