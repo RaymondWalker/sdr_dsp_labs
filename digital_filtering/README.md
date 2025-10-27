@@ -6,6 +6,12 @@ $$
 y[n] = \sum_{k=0}^{N-1} x[k] \cdot h[n-k]
 $$
 
+where :
+
+$h[k]$ : filter coefficients (defines filter shape or response) 
+$M$ Number of coefficients = "filter order" + 1
+
+
 where in frequency (much more simple operation)
 
 $$
