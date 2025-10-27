@@ -21,7 +21,7 @@ Key topics covered:
   <img src="snr_demo.png" width="600">
 </p>
 
-## \Gauss Noise
+## Gauss Noise
 <p align="center">
   <img src="gauss_noise_fft/gaussian_noise.png" width="600">
 </p>
