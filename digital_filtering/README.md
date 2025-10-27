@@ -9,7 +9,12 @@ $$
 where :
 
 - $h[k]$ : filter coefficients (defines filter shape or response) 
-- $M$ Number of coefficients = "filter order" + 1
+- $M$ : Number of coefficients = "filter order" + 1
+- $x[n]$ : Input samples
+- $y[n]$ : filtered output
+
+#### Think of h[k] as allowed time 'window' 
+
 
 
 where in frequency (much more simple operation)
