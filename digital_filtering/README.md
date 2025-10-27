@@ -13,7 +13,7 @@ where :
 - $x[n]$ : Input samples
 - $y[n]$ : filtered output
 
-#### Think of h[k] as allowed time 'window' 
+#### Think of $h[k]$ as allowed time 'window' 
 
 
 
