@@ -17,9 +17,9 @@ Key topics covered:
 | [gauss_noise_fft](./gauss_noise_fft) | Gaussian noise + FFT | Noise modeling, SNR, PSD |
 | [measure_snr](./measure_snr) | SNR measurement and validation | SNR, Parseval’s theorem, Welch PSD |
 
-## SNR 
+## SIN FFT
 <p align="center">
-  <img src="measure_snr/snr_demo.png" width="600">
+  <img src="fft_sin/fft_sin.png" width="600">
 </p>
 
 ## Gauss Noise
@@ -27,10 +27,19 @@ Key topics covered:
   <img src="gauss_noise_fft/gaussian_noise.png" width="600">
 </p>
 
-## SIN FFT
+## SNR 
 <p align="center">
-  <img src="fft_sin/fft_sin.png" width="600">
+  <img src="measure_snr/snr_demo.png" width="600">
 </p>
+
+## Resulting signal vs Non-Filtered
+<p align="center">
+  <img src="digital_filtering/filtered_vs_unfiltered_hann.png" width="500">
+</p>
+
+
+
+
 
 
 ## Hardware
