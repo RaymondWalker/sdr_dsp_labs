@@ -42,7 +42,8 @@ Demonstrate FIR Filtering by removing out-of-band noise (~100kHz tone)
 ## FIR Frequency Response
 <p align="center">
   <img src="filter_frequency_response.png" width="500">
-</p>../measure_snr/snr_demo.png
+</p>
+
 ## Resulting signal vs Non-Filtered
 <p align="center">
   <img src="filtered_vs_unfiltered_hann.png" width="500">
