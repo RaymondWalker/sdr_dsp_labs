@@ -68,9 +68,13 @@ y[n] = \sum_{k=0}^{M} b_{k} x[n-k] - \sum_{k=1}^{N} a_{k} y[n-k]
 $$
 
 Where:
+
 - x[n] is the input signal
+
 - y[n] is the output
+
 - $b_{k}$ is the feed-forward coefficient
+
 - $a_{k}$ is the feed-back coefficient
 
 
