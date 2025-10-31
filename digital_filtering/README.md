@@ -62,8 +62,11 @@ Demonstrate FIR Filtering by removing out-of-band noise (~100kHz tone)
 Compared to FIR Filters, IIR is more enticing due to the calculation being "budget friendly" computationally. By implementing a feedback loop, the filter can correct itself gradually without as much overhead that the FIR filter employs. 
 
 It can be described by:
+
 $$
+
 y[n] = \sum_{k=0}^{M} b_{k} x[n-k] - \sum_{k=1}^{N} a_{k} y[n-k]
+
 $$
 
 Where:
