@@ -64,9 +64,7 @@ Compared to FIR Filters, IIR is more enticing due to the calculation being "budg
 It can be described by:
 
 $$
-
 y[n] = \sum_{k=0}^{M} b_{k} x[n-k] - \sum_{k=1}^{N} a_{k} y[n-k]
-
 $$
 
 Where:
