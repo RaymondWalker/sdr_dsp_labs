@@ -1,5 +1,5 @@
-# SDR DSP Labs
-
+# SDR DSP Labs ( NOT UP TO DATE)
+# Find Most recent exercises within notebooks/SDR_DSP_notebook.ipynb
 This repo is a compilation and collection of DSP and SDR experiments focused on simulation, analysis, and visualization of various signals
 
 
