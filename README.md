@@ -1,47 +1,69 @@
-# SDR DSP Labs ( NOT UP TO DATE)
-# Find Most recent exercises within notebooks/SDR_DSP_notebook.ipynb
-This repo is a compilation and collection of DSP and SDR experiments focused on simulation, analysis, and visualization of various signals
+#  SDR DSP Labs  
+*A practical lab notebook for exploring digital signal processing through simulation and SDR principles.*
 
+---
 
-Key topics covered:
-- FFT analysis
-- Power Spectral Density (PSD) with Wlech Averaging
-- Gaussian Noise Modeling
-- SNR Estimation and validation
-- Signal Windowing and parseval's Th
+## 📘 Overview
+**SDR DSP Labs** is a growing collection of Python notebooks focused on the **fundamentals of digital signal processing (DSP)** and how they apply to **software-defined radio (SDR)**.  
+Each section introduces theory, walks through a simulation, and visualizes results — making complex concepts intuitive and hands-on.
 
+**Goal:** Build a working understanding of how SDR systems analyze, filter, and fine-tune signals in the digital domain.
 
-| Lab | Description | Key Topics |
-|------|--------------|-------------|
-| [fft_sin](./fft_sin) | Basic FFT of a clean sinusoid | FFT, frequency bins, windowing |
-| [gauss_noise_fft](./gauss_noise_fft) | Gaussian noise + FFT | Noise modeling, SNR, PSD |
-| [measure_snr](./measure_snr) | SNR measurement and validation | SNR, Parseval’s theorem, Welch PSD |
-| [digital_filtering](./digital_filtering/) | FIR and IIR Filtering | FIR and IIR Filtering|
+---
 
-## SIN FFT
-<p align="center">
-  <img src="fft_sin/fft_sin.png" width="600">
-</p>
+##  Key Concepts Covered
+- Fast Fourier Transform (FFT) & Frequency Analysis  
+- Gaussian Noise Modeling & SNR Measurement  
+- Windowing, Spectral Leakage, and PSD (Welch Averaging)  
+- FIR and IIR Digital Filtering  
+- Quantization & ADC Bit-Depth Effects  
+- Sampling and Aliasing Behavior  
+- Complex Mixing (IQ) and Baseband Conversion  
+- Digital Fine-Tuning (Residual LO Error Correction)
 
-## Gauss Noise
-<p align="center">
-  <img src="gauss_noise_fft/gaussian_noise.png" width="600">
-</p>
+---
 
-## SNR 
-<p align="center">
-  <img src="measure_snr/snr_demo.png" width="600">
-</p>
+##  Notebook Directory
 
-## Resulting signal vs Non-Filtered
-<p align="center">
-  <img src="digital_filtering/filtered_vs_unfiltered_hann.png" width="500">
-</p>
+| Section | Title | Concepts |
+|----------|-------|-----------|
+| **1.1** | FFT Foundations | Manual vs NumPy FFT, frequency bins |
+| **1.3** | Gaussian Noise Modeling | AWGN generation, FFT visualization |
+| **1.4** | SNR Estimation | Theoretical vs measured SNR, Welch PSD |
+| **1.5** | FIR Filtering | Band-pass design, SNR improvement |
+| **1.6** | IIR Filtering | Butterworth filter, stability comparison |
+| **1.7** | Spectral Leakage | Window types, sidelobe level (PSL) |
+| **1.8** | Welch PSD | Averaging, noise variance reduction |
+| **1.9** | Resolution Bandwidth | Trade-offs between time and frequency resolution |
+| **1.12** | Quantization & ENOB | ADC behavior, bit-depth scaling |
+| **1.13** | Sampling & Aliasing | Nyquist theorem, aliasing visualization |
+| **1.14** | Complex Mixing | Frequency translation to baseband |
+| **1.15** | LPF & Decimation | Bandwidth reduction and resampling |
+| **1.16** | Digital Fine-Tuning | NCO-based derotation for residual LO offsets |
 
+---
 
+##  Environment Setup
+Install dependencies (Python 3.9+ recommended):
 
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install numpy scipy matplotlib pandas jupyter
 
+## Runinning the main Noteook:
+    ```bash
+    jupyter lab notebooks/SDR_DSP_notebook.ipynb
 
+## Learning Outcome
 
-## Hardware
-Currently using RTL-SDR 3
+Interpret FFT magnitude and phase results correctly
+
+Measure and verify SNR in noisy environments
+
+Design FIR and IIR filters and observe frequency response
+
+Understand windowing and its impact on spectral shape
+
+Simulate and correct residual frequency offsets digitally
+
