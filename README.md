@@ -3,7 +3,7 @@
 
 ---
 
-## 📘 Overview
+##  Overview
 **SDR DSP Labs** is a growing collection of Python notebooks focused on the **fundamentals of digital signal processing (DSP)** and how they apply to **software-defined radio (SDR)**.  
 Each section introduces theory, walks through a simulation, and visualizes results — making complex concepts intuitive and hands-on.
 
@@ -51,9 +51,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install numpy scipy matplotlib pandas jupyter
 
+```
+
 ## Runinning the main Noteook:
-    ```bash
-    jupyter lab notebooks/SDR_DSP_notebook.ipynb
+```bash
+jupyter lab notebooks/SDR_DSP_notebook.ipynb
+``` 
 
 ## Learning Outcome
 
